@@ -1,0 +1,14 @@
+D:\Code\Fun Semester 4\back-end\bin\Debug\netcoreapp2.1\back-end.deps.json
+D:\Code\Fun Semester 4\back-end\bin\Debug\netcoreapp2.1\back-end.runtimeconfig.json
+D:\Code\Fun Semester 4\back-end\bin\Debug\netcoreapp2.1\back-end.runtimeconfig.dev.json
+D:\Code\Fun Semester 4\back-end\bin\Debug\netcoreapp2.1\back-end.dll
+D:\Code\Fun Semester 4\back-end\bin\Debug\netcoreapp2.1\back-end.pdb
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.csprojAssemblyReference.cache
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.csproj.CoreCompileInputs.cache
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.RazorAssemblyInfo.cache
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.RazorAssemblyInfo.cs
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.AssemblyInfoInputs.cache
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.AssemblyInfo.cs
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.RazorTargetAssemblyInfo.cache
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.dll
+D:\Code\Fun Semester 4\back-end\obj\Debug\netcoreapp2.1\back-end.pdb
