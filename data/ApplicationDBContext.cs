@@ -12,7 +12,7 @@ namespace back_end.Data
         {
         }
 
-        public DbSet<Beer> Rooms { get; set; }
+        public DbSet<Beer> Beers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
