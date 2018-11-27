@@ -13,11 +13,28 @@ namespace back_end.Data
         }
 
         public DbSet<Beer> Beers { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Ingredient> Ingredients { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Room>().OnDelete(DeleteBehavior.Cascade).ToTable("Rooms");
+            //Normal Tables
             modelBuilder.Entity<Beer>().ToTable("Beer");
+            modelBuilder.Entity<Brand>().ToTable("Brand");
+            modelBuilder.Entity<Ingredient>().ToTable("Ingredient");
+            modelBuilder.Entity<User>().ToTable("User");
+
+            //Many to Many table
+            modelBuilder.Entity<UserBeer>()
+                .HasKey(ub => new { ub.UserID, ub.BeerId});
+            modelBuilder.Entity<UserBeer>()
+                .HasOne(ub => ub.User)
+                .WithMany(u => u.UserBeers)
+                .HasForeignKey(ub => ub.UserID);
+            modelBuilder.Entity<UserBeer>()
+                .HasOne(ub => ub.Beer)
+                .WithMany(b => b.UserBeers)
+                .HasForeignKey(ub => ub.BeerId);
         }
     }
 }

@@ -11,6 +11,7 @@ namespace back_end.Models
         [JsonProperty(PropertyName = "percentage")] public double Percentage { get; set; }
         [JsonProperty(PropertyName = "description")] public string Description { get; set; }
         [JsonProperty(PropertyName = "ingredients")] public IEnumerable<Ingredient> Ingredients { get; set; }
+        [JsonProperty(PropertyName = "userbeer")] public ICollection<UserBeer> UserBeers { get; set; }
 
     }
 }
