@@ -1,3 +1,6 @@
 language: csharp
-mono:
-  - latest
+mono: none
+dotnet: 2.1.500
+script:    # the following commands are just examples, use whatever your build process requires
+  - dotnet restore
+  - dotnet build
