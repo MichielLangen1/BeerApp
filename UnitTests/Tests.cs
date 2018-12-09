@@ -5,14 +5,17 @@ using Xunit;
 namespace BeerApp.UnitTests{
     public class UnitTests{
 
-        [Fact]
-        public void TestName()
+        [Fact] //will always succeed
+        public void TestPass()
         {
-        //Given
         int x = 4;
-        //When
-        
-        //Then
+        Assert.Equal(4, x);
+        }
+
+        [Fact] //will always Fail
+        public void TestFail()
+        {
+        int x = 5;
         Assert.Equal(4, x);
         }
     }
