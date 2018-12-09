@@ -6,3 +6,8 @@ script:    # the following commands are just examples, use whatever your build p
   - dotnet restore
   - dotnet build
   - dotnet test
+
+  deploy:
+  provider: heroku
+  api_key: 95f89673-f7a2-49b2-903f-c8e0d9a03541
+  app: beerapp-fun4
