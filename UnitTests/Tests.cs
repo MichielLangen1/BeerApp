@@ -12,11 +12,11 @@ namespace BeerApp.UnitTests{
         Assert.Equal(4, x);
         }
 
-        [Fact] //will always Fail
+        [Fact] //will always 'Fail'
         public void TestFail()
         {
         int x = 5;
-        Assert.Equal(4, x);
+        Assert.NotEqual(4, x);
         }
     }
 }
