@@ -1,4 +1,3 @@
-
 language: csharp
 mono: none
 dotnet: 2.1.500
@@ -11,3 +10,4 @@ deploy:
   provider: heroku
   api_key: 95f89673-f7a2-49b2-903f-c8e0d9a03541
   app: beerapp-fun4
+
